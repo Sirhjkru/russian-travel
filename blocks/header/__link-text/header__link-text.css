@@ -1,0 +1,17 @@
+.header__link-text {
+  text-align: end;
+  font-size: 22px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-bottom: 1.5px solid #FFFFFF;
+  padding-bottom: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__link-text {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+

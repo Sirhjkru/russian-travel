@@ -1,11 +1,9 @@
 .page {
   background: #2A2C2F;
-  min-width: 320px;
   display: grid;
-  grid-template-columns: 1 auto;
-  grid-template-rows: 3 auto;
   grid-template-areas: 
   'header'
   'content'
   'footer';
+  min-width: 320px;
 }

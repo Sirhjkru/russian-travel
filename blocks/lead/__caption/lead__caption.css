@@ -6,3 +6,9 @@
   text-transform: uppercase;  
   color: #FFFFFF;
 }
+
+@media screen and (min-width: 876px) {
+  .lead__caption {
+    margin-left: 5%;
+  }
+}

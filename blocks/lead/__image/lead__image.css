@@ -1,10 +1,15 @@
 .lead__image {
-  margin: 40px auto 0;
-  background-image: url(../../../images/lead-polka.svg);
+  margin: 7.3vw auto 0;
   background-size: cover;
   background-position: center;
-  position: relative;
-  z-index: 1;
-  width: 320px;
-  height: 200px;
+  width: 100%;
+  min-width: 320px;
+  min-height: 200px;
+}
+
+@media screen and (min-width: 876px) {
+  .lead__image {
+    margin: 64px 5% 0;
+    width: 90%;
+  }
 }

@@ -1,11 +1,12 @@
 .lead {
+  width: 100%;
   margin-top: 48px;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
   .lead {
   margin-top: 56px;
-}
+  }
 }

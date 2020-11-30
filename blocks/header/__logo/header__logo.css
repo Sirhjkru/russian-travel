@@ -1,11 +1,6 @@
 .header__logo {
-  width: 142px;
-  height: 42px;
-}
-
-@media screen and (min-width: 768px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: calc(9rem + 34 * (100vw - 320px)/1280);
 }

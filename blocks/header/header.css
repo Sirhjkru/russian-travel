@@ -2,18 +2,13 @@
   grid-area: header;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  margin: 16px 16px 0;
+  padding: 0 3.75% 0;
+  margin-top: 5%;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 480px) {
   .header {
-    margin: 28px 24px 0;
+    margin-top: 24px;
   }
 }
 
-@media screen and (min-width: 1024px){
-  .header {
-    margin: 28px 48px 0;
-  }
-}

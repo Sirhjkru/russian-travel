@@ -1,24 +1,18 @@
 .place {
   list-style: none;
   padding: 0;
-  margin: 0 0 73px;
+  margin: 0 auto 73px;
   display: grid;
   grid-template-columns: 43vw 45.8vw;
   grid-template-rows: auto auto;
-  column-gap: 28px;
+  column-gap: 3.64vw;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .place {
     display: flex;
     flex-direction: column;
     margin: auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .place {
-    column-gap: 32px;
   }
 }
 

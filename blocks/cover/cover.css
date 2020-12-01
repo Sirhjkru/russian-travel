@@ -1,4 +1,35 @@
 .cover {
-  position: relative;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
+  height: calc(100vw - 50vw);
+  min-width: 320px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 1280px){
+  .cover {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }

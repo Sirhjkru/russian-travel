@@ -9,7 +9,7 @@
   width: 48.5vw;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .place__website {
     display: none;
   }

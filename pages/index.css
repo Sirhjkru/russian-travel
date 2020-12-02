@@ -1,4 +1,5 @@
-@import url(../Inter/InterWeb/inter.css);
+@import url(../fonts/normalize.css);
+@import url(../fonts/inter.css);
 @import url(../blocks/fonts/fonts.css);
 /* Блок page */
 @import url(../blocks/page/page.css);
@@ -41,8 +42,6 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__background.css);
 /* Блок footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);

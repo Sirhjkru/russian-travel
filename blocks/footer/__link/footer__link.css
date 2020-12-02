@@ -17,5 +17,5 @@
 }
 
 .footer__link:hover {
-
+  cursor: pointer;
 }

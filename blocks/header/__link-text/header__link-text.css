@@ -14,3 +14,7 @@
   }
 }
 
+.header__link-text:hover {
+  cursor: pointer;
+}
+

@@ -1,4 +1,16 @@
 .content {
   grid-area: content;
-  min-width: 320px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .content {
+    width: 1184px;
+  }
 }

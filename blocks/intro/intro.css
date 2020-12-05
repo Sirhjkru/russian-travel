@@ -8,8 +8,6 @@
   }
 }
 
-
-
 @media screen and (min-width: 1024px) {
   .intro {
     margin: 92px 286px 0 48px;
@@ -18,7 +16,7 @@
 
 @media screen and (min-width: 1280px) {
   .intro {
-    margin-left: 148px;
-    margin-right: 442px;
+    margin-left: 100px;
+    margin-right: 394px;
   }
 }

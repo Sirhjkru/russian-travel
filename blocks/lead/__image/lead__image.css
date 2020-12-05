@@ -22,9 +22,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    margin-top: 68px;
-    margin-left: 148px;
-    margin-right: 148px;
+    margin: 68px auto 0;
     width: 984px;
   }
 }

@@ -1,5 +1,5 @@
 .lead__image {
-  margin: 7.3vw auto 0;
+  margin: 11.3vw auto 0;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -7,9 +7,24 @@
   min-height: 200px;
 }
 
-@media screen and (min-width: 876px) {
+@media screen and (min-width: 768px) {
   .lead__image {
-    margin: 64px 5% 0;
-    width: 90%;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    margin: 56px 48px 0;
+    width: 91%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    margin-top: 68px;
+    margin-left: 148px;
+    margin-right: 148px;
+    width: 984px;
   }
 }

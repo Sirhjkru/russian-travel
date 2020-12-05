@@ -1,14 +1,28 @@
 .header {
   grid-area: header;
+  margin-top: 28px;
   display: flex;
   justify-content: space-between;
-  padding: 0 3.75% 0;
-  margin-top: 5%;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .header {
-    margin-top: 24px;
+    margin: 16px 16px 0;
+
   }
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}

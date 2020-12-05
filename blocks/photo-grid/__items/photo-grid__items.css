@@ -4,7 +4,7 @@
   margin: 0;
   display: grid;
   grid-template-columns: repeat(1, auto);
-  row-gap: 12px;
+  row-gap: 9px;
 }
 
 @media screen and (min-width: 768px) {

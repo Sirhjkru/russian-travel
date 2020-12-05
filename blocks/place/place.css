@@ -3,21 +3,23 @@
   padding: 0;
   margin: 0 auto 73px;
   display: grid;
-  grid-template-columns: 43vw 45.8vw;
-  grid-template-rows: auto auto;
-  column-gap: 3.64vw;
+  grid-template-columns: 47.5% 49.5%;
+  grid-template-rows: 1fr minmax(min-content, max-content);
+  column-gap: 4%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .place {
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-bottom: 0;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .place {
-    column-gap: 40px;
+@media screen and (min-width: 768px) {
+  .place:last-child {
+    margin-bottom: 0px;
   }
 }
+

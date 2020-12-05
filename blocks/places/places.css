@@ -1,6 +1,6 @@
 .places {
   position: relative;
-  margin: 92px 3.33vw 0;
+  margin: 20vw 3.33vw 0;
   display: flex;
   flex-direction: column;
 }
@@ -11,15 +11,22 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .places {
+    margin: 65px 24px 0;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .places {
-    margin: 92px 4.6vw 0;
+    margin: 92px 4.6% 0;
   }
 }
 
 
 @media screen and (min-width: 1280px) {
   .places {
-    margin: 92px 3.33vw 0;
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }

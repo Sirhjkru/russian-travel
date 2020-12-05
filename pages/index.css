@@ -1,6 +1,5 @@
-@import url(../fonts/normalize.css);
+@import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
-@import url(../blocks/fonts/fonts.css);
 /* Блок page */
 @import url(../blocks/page/page.css);
 /* Блок header */
@@ -9,7 +8,7 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__link-text/header__link-text.css);
-@import url(../blocks/header/__link-text/_border/header__link-text_border_off.css);
+@import url(../blocks/header/__link-text/_border/header__link-text_border_active.css);
 /* Блок content */
 @import url(../blocks/content/content.css);
 /* Блок lead */
@@ -24,6 +23,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__lists/intro__lists.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/text-bold/intro__text-bold.css);
 /* Блок photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__items/photo-grid__items.css);
@@ -32,6 +32,7 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_indent/place__title_indent_title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
@@ -40,6 +41,7 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 /* Блок cover*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 /* Блок footer */
